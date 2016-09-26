@@ -2,90 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="efcb4891-9f26-4c4f-aba7-be4c9e3cbb39" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/ocr_node_modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/ocr.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controllers/entry_from.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controllers/info.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controllers/user.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/college.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/company.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/entry_form.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/ocr_info.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/positions.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/post.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/questionnaire.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/resume.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ocr_web/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ocr_web/build/.babelrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ocr_web/build/.babelrc-dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ocr_web/build/.babelrc-hot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ocr_web/build/.eslintignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ocr_web/build/.eslintrc.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ocr_web/build/config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ocr_web/build/core/compiler.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ocr_web/build/core/helper.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ocr_web/build/core/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ocr_web/build/core/server.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ocr_web/build/dev_cli.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ocr_web/build/dllconfig/lib.manifest.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ocr_web/build/dllconfig/vendor.manifest.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ocr_web/build/plugin/HashedModuleIdsPlugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ocr_web/build/plugin/PreHtmlPlugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ocr_web/build/start.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ocr_web/build/stats.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ocr_web/build/template/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ocr_web/log/03155d444873b6bc6f49.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ocr_web/log/2ab048c7ae6c474913a3.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ocr_web/log/2e5b203e36a97ab76588.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ocr_web/log/3772f77388bd320d0ea3.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ocr_web/log/37c0d40f27bafb8aa2ef.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ocr_web/log/5a15ffa6a9d8b6a7c162.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ocr_web/log/63bf8e4bc20ecb48c53c.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ocr_web/log/757fcdef0cc9027495bf.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ocr_web/log/7af65b718d7c3a2592a7.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ocr_web/log/86efa17fcc99ff905e71.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ocr_web/log/aef9c25740fc0e3f3a9c.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ocr_web/log/ba84c9d7350a32ccf440.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ocr_web/log/d0832be054b3e335cc78.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ocr_web/log/d0a9e13cff20fab69054.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ocr_web/log/d35957f542ad1d78b730.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ocr_web/log/d8b19d8e03bfeab3b1ed.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ocr_web/log/da55d0da1cb6fefde894.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ocr_web/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ocr_web/src/app/components/Application.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ocr_web/src/app/components/Application1.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ocr_web/src/app/css/global.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ocr_web/src/app/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ocr_web/src/app/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ocr_web/src/lib/1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ocr_web/src/lib/2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ocr_web/src/lib/3.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ocr_web/src/web/containers/AppContainer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ocr_web/src/web/css/global.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ocr_web/src/web/css/index.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ocr_web/src/web/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ocr_web/src/web/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ocr_web/src/web/store/createStore.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ocr_web/src/web/store/reducers.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/restart.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services/info.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/start.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/index.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/controllers/user/login.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/index.js" afterPath="$PROJECT_DIR$/models/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/user.js" afterPath="$PROJECT_DIR$/models/user.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controllers/signin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services/signin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/web.js" afterPath="$PROJECT_DIR$/routes/web.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/servers/web.js" afterPath="$PROJECT_DIR$/servers/web.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/user.js" afterPath="$PROJECT_DIR$/services/user.js" />
     </list>
     <ignored path="ocr.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -109,18 +29,18 @@
       <file leaf-file-name="user.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/controllers/user.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+            <state relative-caret-position="361">
+              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="info.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controllers/info.js">
+      <file leaf-file-name="signin.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controllers/signin.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" column="15" selection-start-line="31" selection-start-column="15" selection-end-line="31" selection-end-column="15" />
+            <state relative-caret-position="285">
+              <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -129,34 +49,61 @@
       <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+            <state relative-caret-position="207">
+              <caret line="38" column="27" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/koa-router/package.json">
+      <file leaf-file-name="entry_from.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controllers/entry_from.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="551">
+              <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="signin.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/services/signin.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ocr_info.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/ocr_info.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="542">
+              <caret line="43" column="28" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="user.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/user.js">
+        <entry file="file://$PROJECT_DIR$/services/user.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1598">
-              <caret line="94" column="10" selection-start-line="94" selection-start-column="10" selection-end-line="94" selection-end-column="10" />
+            <state relative-caret-position="209">
+              <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -182,8 +129,10 @@
         <option value="$PROJECT_DIR$/models/career_talk.js" />
         <option value="$PROJECT_DIR$/models/ocr_info.js" />
         <option value="$PROJECT_DIR$/models/user.js" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/node_modules/koa-router/package.json" />
+        <option value="$PROJECT_DIR$/controllers/signin.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/services/signin.js" />
       </list>
     </option>
   </component>
@@ -196,8 +145,8 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="832" />
+    <option name="width" value="1920" />
+    <option name="height" value="1006" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -224,7 +173,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -253,13 +202,41 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="services" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ocr" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ocr" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ocr" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ocr" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -347,11 +324,12 @@
       <workItem from="1474084107504" duration="480000" />
       <workItem from="1474353613859" duration="17624000" />
       <workItem from="1474530534456" duration="2669000" />
+      <workItem from="1474884057221" duration="5500000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20773000" />
+    <option name="totallyTimeSpent" value="26273000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -363,26 +341,26 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="832" extended-state="0" />
+    <frame x="0" y="23" width="1920" height="1006" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21282594" sideWeight="0.49460918" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21274355" sideWeight="0.49460918" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884097" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21351351" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21334793" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24947146" sideWeight="0.5053908" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -401,6 +379,38 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/controllers/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/info.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="31" column="15" selection-start-line="31" selection-start-column="15" selection-end-line="31" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1786">
+          <caret line="94" column="10" selection-start-line="94" selection-start-column="10" selection-end-line="94" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/controllers/user.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -425,14 +435,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/koa-router/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/koa-router/package.json" />
     <entry file="file://$PROJECT_DIR$/models/user.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1598">
@@ -442,34 +445,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/user/login.js" />
-    <entry file="file://$PROJECT_DIR$/node_modules/sequelize/lib/sequelize.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="642" column="53" selection-start-line="642" selection-start-column="47" selection-end-line="642" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/sequelize/lib/sql-string.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/sequelize/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/services/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/sequelize/lib/sequelize.js" />
+    <entry file="file://$PROJECT_DIR$/node_modules/sequelize/lib/sql-string.js" />
+    <entry file="file://$PROJECT_DIR$/node_modules/sequelize/index.js" />
     <entry file="file://$PROJECT_DIR$/services/info.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -519,13 +497,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/entry_from.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/models/entry_form.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -544,13 +515,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/questionnaire.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="42" selection-start-line="1" selection-start-column="42" selection-end-line="1" selection-end-column="42" />
         </state>
       </provider>
     </entry>
@@ -576,13 +540,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/models/career_talk.js" />
-    <entry file="file://$PROJECT_DIR$/models/ocr_info.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="542">
-          <caret line="43" column="28" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/models/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -592,40 +549,81 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/models/user.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1598">
+        <state relative-caret-position="1786">
           <caret line="94" column="10" selection-start-line="94" selection-start-column="10" selection-end-line="94" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/koa-router/package.json" />
     <entry file="file://$PROJECT_DIR$/controllers/info.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
+        <state relative-caret-position="589">
           <caret line="31" column="15" selection-start-line="31" selection-start-column="15" selection-end-line="31" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/questionnaire.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-551">
+          <caret line="1" column="42" selection-start-line="1" selection-start-column="42" selection-end-line="1" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/entry_from.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/ocr_info.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="542">
+          <caret line="43" column="28" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+        <state relative-caret-position="207">
+          <caret line="38" column="27" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/koa-router/package.json">
+    <entry file="file://$PROJECT_DIR$/services/signin.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="323">
+          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/signin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/user.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+        <state relative-caret-position="361">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
           <folding />
         </state>
       </provider>
