@@ -2,7 +2,11 @@ var User = require('../models').User;
 
 var u = module.exports = {};
 
-u.login = async function(name){
-    let user = await User.find({where:{name:name}});
+u.login = async function(name,pwd){
+    let user = await User.validPwd(name,pwd);
     return user;
-}
+};
+u.add = async function(user){
+    let r = await User.add(user);
+    return r.get({plain:true});
+};

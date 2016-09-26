@@ -1,0 +1,8 @@
+*{
+}
+@value blue: #0c77f8;
+
+:global(.c1){
+        padding-left: 100px;
+        color:blue;
+    }
