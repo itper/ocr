@@ -2,90 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="efcb4891-9f26-4c4f-aba7-be4c9e3cbb39" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/ocr_node_modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/ocr.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controllers/entry_from.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controllers/info.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controllers/user.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/college.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/company.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/entry_form.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/ocr_info.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/positions.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/post.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/questionnaire.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/resume.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ocr_web/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ocr_web/build/.babelrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ocr_web/build/.babelrc-dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ocr_web/build/.babelrc-hot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ocr_web/build/.eslintignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ocr_web/build/.eslintrc.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ocr_web/build/config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ocr_web/build/core/compiler.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ocr_web/build/core/helper.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ocr_web/build/core/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ocr_web/build/core/server.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ocr_web/build/dev_cli.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ocr_web/build/dllconfig/lib.manifest.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ocr_web/build/dllconfig/vendor.manifest.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ocr_web/build/plugin/HashedModuleIdsPlugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ocr_web/build/plugin/PreHtmlPlugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ocr_web/build/start.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ocr_web/build/stats.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ocr_web/build/template/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ocr_web/log/03155d444873b6bc6f49.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ocr_web/log/2ab048c7ae6c474913a3.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ocr_web/log/2e5b203e36a97ab76588.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ocr_web/log/3772f77388bd320d0ea3.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ocr_web/log/37c0d40f27bafb8aa2ef.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ocr_web/log/5a15ffa6a9d8b6a7c162.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ocr_web/log/63bf8e4bc20ecb48c53c.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ocr_web/log/757fcdef0cc9027495bf.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ocr_web/log/7af65b718d7c3a2592a7.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ocr_web/log/86efa17fcc99ff905e71.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ocr_web/log/aef9c25740fc0e3f3a9c.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ocr_web/log/ba84c9d7350a32ccf440.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ocr_web/log/d0832be054b3e335cc78.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ocr_web/log/d0a9e13cff20fab69054.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ocr_web/log/d35957f542ad1d78b730.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ocr_web/log/d8b19d8e03bfeab3b1ed.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ocr_web/log/da55d0da1cb6fefde894.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ocr_web/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ocr_web/src/app/components/Application.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ocr_web/src/app/components/Application1.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ocr_web/src/app/css/global.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ocr_web/src/app/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ocr_web/src/app/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ocr_web/src/lib/1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ocr_web/src/lib/2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ocr_web/src/lib/3.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ocr_web/src/web/containers/AppContainer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ocr_web/src/web/css/global.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ocr_web/src/web/css/index.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ocr_web/src/web/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ocr_web/src/web/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ocr_web/src/web/store/createStore.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ocr_web/src/web/store/reducers.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/restart.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services/info.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/start.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/index.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/controllers/user/login.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/index.js" afterPath="$PROJECT_DIR$/models/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/user.js" afterPath="$PROJECT_DIR$/models/user.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/web.js" afterPath="$PROJECT_DIR$/routes/web.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/servers/web.js" afterPath="$PROJECT_DIR$/servers/web.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/user.js" afterPath="$PROJECT_DIR$/services/user.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ocr.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -106,11 +24,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="user.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="user.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controllers/user.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="-561">
               <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -184,6 +112,7 @@
         <option value="$PROJECT_DIR$/models/user.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/node_modules/koa-router/package.json" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -265,7 +194,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
     <property name="JavaScriptPreferStrict" value="false" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
@@ -346,12 +275,12 @@
       <updated>1474084105891</updated>
       <workItem from="1474084107504" duration="480000" />
       <workItem from="1474353613859" duration="17624000" />
-      <workItem from="1474530534456" duration="2669000" />
+      <workItem from="1474530534456" duration="4116000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20773000" />
+    <option name="totallyTimeSpent" value="22220000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -372,7 +301,7 @@
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21351351" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21351351" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24947146" sideWeight="0.5053908" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -624,8 +553,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/user.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="-561">
           <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
           <folding />
         </state>
       </provider>
