@@ -12,35 +12,35 @@ module.exports = function(sequelize,DataTypes){
         },
         salary:{
             type:DataTypes.TEXT(),
-            allowNull:false,
+            allowNull:true,
             comment:'薪资'
         },
         publisher:{
             type:DataTypes.BIGINT(20),
-            allowNull:false,
+            allowNull:true,
             comment:'发布人',
         },
         jobnature:{
             type:DataTypes.STRING(100),
-            allowNull:false,
+            allowNull:true,
             comment:'职位类型/兼职/全职'
         },
         education:{
             type:DataTypes.STRING(100),
-            allowNull:false,
+            allowNull:true,
             comment:'要求',
         },
 
         state:{
             field:'state',
             type:DataTypes.INTEGER(2),
-            allowNull:false,
+            allowNull:true,
             defaultValue:3,
             comment:'状态[1:进行中,2:一结束,3:即将开始]'
         },
         address:{
             type:DataTypes.STRING(300),
-            allowNull:false,
+            allowNull:true,
             comment:'地址'
         },
         company:{
@@ -55,7 +55,7 @@ module.exports = function(sequelize,DataTypes){
         },
         desc:{
             type:DataTypes.TEXT(),
-            allowNull:false,
+            allowNull:true,
             comment:'职位要求'
         }
 
@@ -73,29 +73,34 @@ module.exports = function(sequelize,DataTypes){
                     }
                 })
             },
-            listOCR:async function(page,pageSize){
+            listPosition:async function(page,pageSize){
                 return await this.findAll({
                     where:{
 
                     },
                     limit:pageSize,
                     offset:page*pageSize,
-                    order:'fromDate DESC'
+                    // order:'fromDate DESC'
                 })
             },
-            addOCR:async function(ocr){
-                const row = this.build(ocr);
+            add:async function(p){
+                const row = this.build(p);
                 return await row.save();
             },
-            update:async function(ocr){
-                let row = await this.findById(ocr.id);
-                row.title=ocr.title;
-                row.content=ocr.content;
-                row.publisher=ocr.publisher;
-                row.fromDate=ocr.fromDate;
-                row.toDate=ocr.toDate;
-                row.address=ocr.address;
-                row.company=ocr.company;
+            update:async function(p){
+                let row = await this.findById(p.id);
+                row.id = p.id;
+                row.name = p.name;
+                row.salary = p.salary;
+                row.publisher = p.publisher;
+                row.jobnature = p.jobnature;
+                row.education = p.education;
+                row.state = p.state;
+                row.address = p.address;
+                row.company = p.company;
+                row.companyId = p.companyId;
+                row.desc = p.desc;
+
                 return await row.save();
 
             },

@@ -20,6 +20,7 @@ module.exports = {
     Resume:load('resume'),
     Company:load('company'),
     College:load('college'),
+    Signin:load('signin')
 }
 
 

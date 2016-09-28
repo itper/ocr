@@ -17,28 +17,28 @@ module.exports = function(sequelize,DataTypes){
         },
         logo:{
             type:DataTypes.STRING(200),
-            allowNull:false,
+            allowNull:true,
             comment:'图标'
         },
         type:{
             type:DataTypes.STRING(100),
-            allowNull:false,
+            allowNull:true,
             comment:'企业类型/传统公司,互联网公司等.'
         },
         process:{
             type:DataTypes.STRING(100),
-            allowNull:false,
+            allowNull:true,
             comment:'如上市公司/A轮'
         },
         number:{
             type:DataTypes.INTEGER(10),
-            allowNull:false,
+            allowNull:true,
             defaultValue:3,
             comment:'员工数量'
         },
         address:{
             type:DataTypes.STRING(300),
-            allowNull:false,
+            allowNull:true,
             comment:'招聘会/宣讲会地址'
         },
         introduction:{
@@ -56,38 +56,41 @@ module.exports = function(sequelize,DataTypes){
         comment:'公司/企业',
         indexes:[],
         classMethods:{
-            findByTitle:async function(title){
+            findByName:async function(title){
                 return await this.findAll({
                     where:{
-                        title:{
+                        name:{
                             like:`%${title}%`
                         }
                     }
                 })
             },
-            listOCR:async function(page,pageSize){
+            listCompany:async function(page,pageSize){
                 return await this.findAll({
                     where:{
 
                     },
                     limit:pageSize,
                     offset:page*pageSize,
-                    order:'fromDate DESC'
+                    order:'id DESC'
                 })
             },
-            addOCR:async function(ocr){
-                const row = this.build(ocr);
+            add:async function(company){
+                const row = this.build(company);
                 return await row.save();
             },
-            update:async function(ocr){
-                let row = await this.findById(ocr.id);
-                row.title=ocr.title;
-                row.content=ocr.content;
-                row.publisher=ocr.publisher;
-                row.fromDate=ocr.fromDate;
-                row.toDate=ocr.toDate;
-                row.address=ocr.address;
-                row.company=ocr.company;
+            update:async function(cp){
+                let row = await this.findById(cp.id);
+                row.id = cp.id;
+                row.name = cp.name;
+                row.desc = cp.desc;
+                row.logo = cp.logo;
+                row.type = cp.type;
+                row.process = cp.process;
+                row.number = cp.number;
+                row.address = cp.address;
+                row.introduction = cp.introduction;
+                row.tag = cp.tag;
                 return await row.save();
 
             },

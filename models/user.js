@@ -7,7 +7,7 @@ module.exports = function(sequelize,DataTypes){
         },
         name:{
             type:DataTypes.STRING(100),
-            allowNull:false,
+            allowNull:true,
             comment:'名称/企业用户/教师姓名'
         },
         pwd:{
@@ -22,7 +22,7 @@ module.exports = function(sequelize,DataTypes){
         },
         avatar:{
             type:DataTypes.STRING(200),
-            allowNull:false,
+            allowNull:true,
             comment:'头像',
         },
         email:{
@@ -32,7 +32,7 @@ module.exports = function(sequelize,DataTypes){
         },
         type:{
             type:DataTypes.INTEGER(1),
-            allowNull:false,
+            allowNull:true,
             defauleValue:1,
             comment:'账户类型[1:学生,2:教师,3:企业用户',
         },
