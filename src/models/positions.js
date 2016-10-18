@@ -83,6 +83,13 @@ module.exports = function(sequelize,DataTypes){
                     // order:'fromDate DESC'
                 })
             },
+            delete:async function(id){
+                return await this.destroy({
+                    where:{
+                        id:id
+                    }
+                });
+            },
             add:async function(p){
                 const row = this.build(p);
                 return await row.save();

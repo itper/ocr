@@ -17,6 +17,15 @@ exports.add = async function(ctx){
         }
     }
 };
+exports.update = async function(ctx){
+    try{
+        let r = await service.update(createPosition(ctx.request.body));
+        ctx.body = {code:0,data:r,msg:'success'};
+    }catch(e){
+        ctx.body = {code:1,msg:'error',data:e};
+        console.log(e);
+    }
+}
 //拉去职位
 exports.list = async function(ctx){
     const list = await service.list(parseInt(ctx.query.page||0),parseInt(ctx.query.pageSize||20));
@@ -35,22 +44,27 @@ exports.list = async function(ctx){
     }
 };
 //删除职位
-exports.deletePosition = async function(){
-
+exports.delete = async function(ctx){
+    let r = await service.delete(parseInt(ctx.query.id));
+    ctx.body = {
+        code:r?0:1,
+        data:null
+    }
 };
 //通过公司Id获取招聘信息.
-exports.getPosition = async function(){
+exports.get = async function(){
 
 };
 //
-exports.favoritePosition = async function(){
+exports.favorite = async function(){
 
 };
-exports.deleteFavoritePosition = async function(){
+exports.deleteFavorite = async function(){
     
 }
 function createPosition(p){
     let position = {};
+    position.id = p.id;
     position.name = p.name;
     position.salary = p.salary;
     position.publisher = p.publisher;

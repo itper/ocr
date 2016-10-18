@@ -14,6 +14,9 @@ module.exports = {
     update:async function(info){
         const row = await OCRInfo.update(info);
         return row.get({plain:true});
+    },
+    delete:async function(id){
+        return (await OCRInfo.delete(id))===1;
     }
 
 };

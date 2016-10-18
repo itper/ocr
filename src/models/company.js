@@ -75,6 +75,13 @@ module.exports = function(sequelize,DataTypes){
                     order:'id DESC'
                 })
             },
+            delete:async function(id){
+                return await this.destroy({
+                    where:{
+                        id:id
+                    }
+                });
+            },
             add:async function(company){
                 const row = this.build(company);
                 return await row.save();

@@ -45,6 +45,13 @@ module.exports = function(sequelize,DataTypes){
                     offset:page*pageSize,
                 })
             },
+            delete:async function(id){
+                return await this.destroy({
+                    where:{
+                        id:id
+                    }
+                });
+            },
             add:async function(entry){
                 const row = this.build(entry);
                 return await row.save();

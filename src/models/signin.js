@@ -47,6 +47,13 @@ module.exports = function(sequelize,DataTypes){
                 const row = this.build(code);
                 return await row.save();
             },
+            delete:async function(id){
+                return await this.destroy({
+                    where:{
+                        id:id
+                    }
+                });
+            },
             update:async function(c,code){
                 let row = await this.findById(c,code.code);
                 if(!row){

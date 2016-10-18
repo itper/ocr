@@ -139,7 +139,7 @@ module.exports = function(sequelize,DataTypes){
                     }
                 })
             },
-            listOCR:async function(page,pageSize){
+            list:async function(page,pageSize){
                 return await this.findAll({
                     where:{
 
@@ -149,7 +149,14 @@ module.exports = function(sequelize,DataTypes){
                     order:'fromDate DESC'
                 })
             },
-            addOCR:async function(ocr){
+            delete:async function(id){
+                return await this.destroy({
+                    where:{
+                        id:id
+                    }
+                });
+            },
+            add:async function(ocr){
                 const row = this.build(ocr);
                 return await row.save();
             },

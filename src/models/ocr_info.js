@@ -45,7 +45,7 @@ module.exports = function(sequelize,DataTypes){
         },
         company:{
             type:DataTypes.STRING(300),
-            allowNull:false,
+            allowNull:true,
             comment:'公司'
         }
     },{
@@ -71,6 +71,13 @@ module.exports = function(sequelize,DataTypes){
                     offset:page*pageSize,
                     order:'fromDate DESC'
                 })
+            },
+            delete:async function(id){
+                return await this.destroy({
+                    where:{
+                        id:id
+                    }
+                });
             },
             addOCR:async function(ocr){
                 const row = this.build(ocr);
