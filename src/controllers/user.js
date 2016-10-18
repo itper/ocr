@@ -1,6 +1,29 @@
 const userService = require('../services/user');
 const signinService= require('../services/signin');
 
+exports.userlist = async function(ctx,next){
+    const list = await userService.list(parseInt(ctx.query.page||0),parseInt(ctx.query.pageSize||20),ctx.query.type||1);
+    if(list){
+        ctx.body = {
+            code:0,
+            data:{
+                list:list
+            }
+        }
+    }else{
+        ctx.body = {
+            code:1,
+            data:null
+        }
+    }
+};
+exports.delete = async function(ctx,next){
+    let r = await userService.delete(parseInt(ctx.query.id));
+        ctx.body = {
+            code:r?0:1,
+            data:null
+        }
+}
 //登录接口
 exports.login = async function (cxt,next){
     var username = cxt.request.body.username;
@@ -52,7 +75,6 @@ exports.logout = async function(cxt){
 }
 //注册
 exports.add = async function (cxt){
-    console.log(cxt.request.body);
     if(validNameAndPwd(cxt.request.body)){
         cxt.body = {
             code:1,
@@ -68,11 +90,13 @@ exports.add = async function (cxt){
     }
 }
 //更新
-exports.update = async function(){
+exports.update = async function(cxt){
     try{
-
+        let r = await userService.update(createUser(cxt.request.body));
+        cxt.body = {code:0,data:r,msg:'success'};
     }catch(e){
-
+        cxt.body = {code:1,msg:'error',data:e};
+        console.log(e);
     }
 };
 exports.signin = async function(ctx){
@@ -95,7 +119,7 @@ function createUser(p){
     user.pwd = p.pwd || '';
     user.avatar = p.avatar || '';
     user.email = p.email || '';
-    user.roles = p.roles || 1;
+    user.type = p.type || 1;
     user.school = p.school || '';
     user.phone = p.phone || '';
     user.age = p.age || '';

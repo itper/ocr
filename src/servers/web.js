@@ -8,7 +8,7 @@ var bodyParser = require('koa-bodyparser');
 var app = new Koa();
 app.use(bodyParser());
 app.use(async function(ctx,next){
-    ctx.set('Access-Control-Allow-Origin',"http://localhost:3000");
+    ctx.set('Access-Control-Allow-Origin',"*");
     ctx.set("Access-Control-Allow-Headers", "Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With");
     ctx.set("Access-Control-Allow-Credentials",true);
     await next();

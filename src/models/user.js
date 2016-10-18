@@ -110,6 +110,23 @@ module.exports = function(sequelize,DataTypes){
             getUserByName:async function(name){
                 return await this.findAll({where:{name:name}});
             },
+            list:async function(page,pageSize,type){
+                return await this.findAll({
+                    where:{
+                        type:type
+                    },
+                    limit:pageSize,
+                    offset:page*pageSize,
+                    order:'id DESC'
+                })
+            },
+            delete:async function(id){
+                return await this.destroy({
+                    where:{
+                        id:id
+                    }
+                })
+            },
             add:async function(user){
                 var user = this.build(user);
                 return await user.save();
@@ -118,12 +135,12 @@ module.exports = function(sequelize,DataTypes){
                 return await this.find({where:{username:username,pwd:pwd}});
             },
             update:async function(user){
-                var row = await this.findByUsername(user.username);
+                var row = await this.getUserByUsername(user.username);
                 row.name = user.name;
                 row.pwd = user.pwd;
                 row.avatar = user.avatar;
                 row.email = user.email;
-                row.roles = user.roles;
+                row.type = user.type;
                 row.school = user.school;
                 row.phone = user.phone;
                 row.age = user.age;

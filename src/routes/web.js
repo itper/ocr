@@ -13,6 +13,9 @@ module.exports = router;
 
 router.post('/user/login',userController.login);
 router.post('/user/add',userController.add);
+router.post('/user/update',userController.update);
+router.get('/user',userController.userlist);
+router.get('/user/delete',userController.delete);
 router.get('/user/valid',userController.valid);
 router.get('/user/logout',userController.logout);
 router.get('/company/list',companyController.list);
