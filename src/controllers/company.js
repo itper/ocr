@@ -32,6 +32,15 @@ exports.delete = async function(ctx){
         data:null
     }
 };
+exports.find = async function (ctx){
+    const list = await service.find(ctx.query.keyword);
+    ctx.body = {
+        code:0,
+        data:{
+            list:list
+        }
+    };
+};
 exports.list = async function(ctx,next){
     const list = await service.list(parseInt(ctx.query.page||0),parseInt(ctx.query.pageSize||20));
     if(list){

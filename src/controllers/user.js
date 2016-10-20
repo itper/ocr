@@ -1,5 +1,6 @@
 const userService = require('../services/user');
 const signinService= require('../services/signin');
+var Dispatch = require('../global/signDispatch');
 
 exports.userlist = async function(ctx,next){
     const list = await userService.list(parseInt(ctx.query.page||0),parseInt(ctx.query.pageSize||20),ctx.query.type||1);
@@ -26,10 +27,10 @@ exports.delete = async function(ctx,next){
 }
 //登录接口
 exports.login = async function (cxt,next){
-    var username = cxt.request.body.username;
+    var number = cxt.request.body.number;
     var pwd = cxt.request.body.pwd;
     if(validNameAndPwd(cxt.request.body)){
-        this.body = {
+        cxt.body = {
             code:1,
             msg:'paramError'
         };
@@ -41,7 +42,7 @@ exports.login = async function (cxt,next){
     }
     let user;
     try{
-        user = await userService.login(username,pwd);
+        user = await userService.login(number,pwd);
     }catch(e){
         console.log(e);
     }
@@ -62,7 +63,7 @@ exports.valid = async function(cxt){
     }
 }
 function validNameAndPwd(p){
-    return (!p.username || !p.pwd);
+    return (!p.number || !p.pwd);
 }
 //登出接口
 exports.logout = async function(cxt){
@@ -104,18 +105,23 @@ exports.signin = async function(ctx){
     const r = await signinService.valid(code,1);
     if(r){
         ctx.body = {code:0,msg:'success'};
+        Dispatch.emit('sign-valid',{code:code,user:ctx.session.user});
     }else{
         ctx.body = {code:1,msg:'验证码无效'}
     }
 };
 exports.createCode = async function(ctx){
-    const code = await signinService.create();
+    if(!ctx.query.ocr){
+        return ctx.body = {code:1,msg:''};
+    }
+    const code = await signinService.create(ctx.query.ocr);
     ctx.body = {code:0,msg:'',data:{code:code}};
 };
 function createUser(p){
     let user = {};
     user.username = p.username ;
     user.name = p.name || '';
+    user.number = p.number;
     user.pwd = p.pwd || '';
     user.avatar = p.avatar || '';
     user.email = p.email || '';
@@ -128,5 +134,7 @@ function createUser(p){
     user.page = p.page || '';
     user.desc = p.desc || '';
     user.address = p.address || '';
+    user.company = p.company;
+    user.companyId = p.companyId;
     return user;
 }

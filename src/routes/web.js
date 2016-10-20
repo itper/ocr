@@ -20,6 +20,7 @@ router.get('/user/valid',userController.valid);
 router.get('/user/logout',userController.logout);
 
 router.get('/company',companyController.list);
+router.get('/company/find',companyController.find);
 router.post('/company/add',companyController.add);
 router.post('/company/update',companyController.update);
 router.get('/company/delete',companyController.delete);

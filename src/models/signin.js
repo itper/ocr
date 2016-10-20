@@ -10,6 +10,11 @@ module.exports = function(sequelize,DataTypes){
             allowNull:false,
             comment:'验证码'
         },
+        ocrId:{
+            type:DataTypes.BIGINT(20),
+            allowNull:false,
+            comment:'招聘会',
+        },
         expire:{
             type:DataTypes.TEXT(),
             allowNull:false,
@@ -62,6 +67,7 @@ module.exports = function(sequelize,DataTypes){
                 row.id = code.id;
                 row.expire = code.expire;
                 row.userId = code.userId;
+                row.ocrId = row.ocrId;
                 return await row.save();
 
             },

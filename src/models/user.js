@@ -17,7 +17,7 @@ module.exports = function(sequelize,DataTypes){
         },
         username:{
             type:DataTypes.STRING(100),
-            allowNull:false,
+            allowNull:true,
             comment:'登录用户名'
         },
         avatar:{
@@ -40,6 +40,11 @@ module.exports = function(sequelize,DataTypes){
             type:DataTypes.STRING(500),
             allowNull:true,
             comment:'学校',
+        },
+        number:{
+            type:DataTypes.STRING(100),
+            allowNull:false,
+            comment:'学号'
         },
         phone:{
 
@@ -100,7 +105,7 @@ module.exports = function(sequelize,DataTypes){
         indexes:[
             {
                 unique:true,
-                fields:['username']
+                fields:['number']
             }
         ],
         classMethods:{
@@ -131,13 +136,14 @@ module.exports = function(sequelize,DataTypes){
                 var user = this.build(user);
                 return await user.save();
             },
-            validPwd:async function(username,pwd){
-                return await this.find({where:{username:username,pwd:pwd}});
+            validPwd:async function(number,pwd){
+                return await this.find({where:{number:number,pwd:pwd}});
             },
             update:async function(user){
                 var row = await this.getUserByUsername(user.username);
                 row.name = user.name;
                 row.pwd = user.pwd;
+                row.number = user.number;
                 row.avatar = user.avatar;
                 row.email = user.email;
                 row.type = user.type;
@@ -149,6 +155,8 @@ module.exports = function(sequelize,DataTypes){
                 row.page = user.page;
                 row.desc = user.desc;
                 row.address = user.address;
+                row.company = user.company;
+                row.company = user.companyId;
                 return await row.save();
             },
         }

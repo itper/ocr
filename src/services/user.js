@@ -2,8 +2,8 @@ var User = require('../models').User;
 
 var u = module.exports = {};
 
-u.login = async function(username,pwd){
-    let user = await User.validPwd(username,pwd);
+u.login = async function(number,pwd){
+    let user = await User.validPwd(number,pwd);
     return user;
 };
 u.add = async function(user){

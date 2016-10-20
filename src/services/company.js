@@ -9,6 +9,9 @@ u.list = async function(page,pageSize){
 u.add = async function(company){
     return await Company.add(company);
 };
+u.find = async function(name){
+    return await Company.findByName(name);
+};
 u.update = async function (company){
     return (await Company.update(company)).get({plain:true});
 };
