@@ -38,13 +38,25 @@ module.exports = function(sequelize,DataTypes){
                     }
                 })
             },
-            list:async function(page,pageSize){
+            list:async function(ocr,page,pageSize){
+                return await sequelize.query(`
+                                select signin.updatedAt,
+                                signin.code,
+                                user.name,
+                                user.number
+                                 from 
+                                 user,signin 
+                                 where 
+                                 user.number=signin.userId 
+                                 and signin.ocrId=${ocr} limit ${page*pageSize},${pageSize}`
+                ,{type: sequelize.QueryTypes.SELECT});
                 return await this.findAll({
                     where:{
 
                     },
                     limit:pageSize,
                     offset:page*pageSize,
+                    ocrId:ocr
                     // order:'fromDate DESC'
                 })
             },

@@ -102,7 +102,7 @@ exports.update = async function(cxt){
 };
 exports.signin = async function(ctx){
     const code = ctx.query.code;
-    const r = await signinService.valid(code,1);
+    const r = await signinService.valid(code,ctx.session.user.number);
     if(r){
         ctx.body = {code:0,msg:'success'};
         Dispatch.emit('sign-valid',{code:code,user:ctx.session.user});

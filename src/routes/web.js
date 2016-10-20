@@ -6,6 +6,7 @@ let userController = require('../controllers/user.js');
 let infoController = require('../controllers/info.js');
 let companyController = require('../controllers/company');
 let positionController = require('../controllers/position');
+let signController = require('../controllers/signin');
 Promise.promisifyAll(fs);
 module.exports = router;
 
@@ -37,6 +38,8 @@ router.get('/position/delete',positionController.delete);
 
 router.get('/user/signin',userController.signin);
 router.get('/user/createcode',userController.createCode);
+
+router.get('/sign',signController.list);
 
 
 router.get('/info/add',infoController.add);

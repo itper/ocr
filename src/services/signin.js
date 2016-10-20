@@ -20,4 +20,7 @@ exports.hasSignin = async function(){
 };
 function currentDate(){
     return parseInt(Date.now()/1000);
-}
+};
+exports.list = async function(ocr,page,pageSize){
+    return await SigninCode.list(ocr,page,pageSize);
+};
